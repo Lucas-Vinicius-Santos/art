@@ -1,0 +1,46 @@
+.artists-container {
+  h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 8rem 0 var(--spacing-4);
+  }
+
+  .artists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 100%;
+
+    .artist {
+      position: relative;
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      &__infos {
+        position: absolute;
+        top: var(--spacing-3);
+        left: var(--spacing-3);
+
+        h3 {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 29px;
+          color: var(--white);
+        }
+
+        p {
+          margin-top: 0.8rem;
+          font-size: var(--text-sm);
+          color: var(--gray-200);
+        }
+      }
+    }
+  }
+}

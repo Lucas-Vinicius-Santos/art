@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--spacing-6);
+
+  input {
+    background-color: var(--gray-200);
+    border-radius: 0.4rem;
+    border: 2px transparent;
+
+    font-weight: 400;
+    font-size: var(--text-sm);
+    line-height: 2rem;
+    padding: 1rem 2.4rem;
+    width: 100%;
+    max-width: 60rem;
+  }
+}

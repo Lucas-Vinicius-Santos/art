@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--spacing-6);
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-5);
+
+    li {
+      a {
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-size: var(--text-base);
+        line-height: 2.2rem;
+      }
+    }
+  }
+}
